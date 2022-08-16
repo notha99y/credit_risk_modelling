@@ -18,12 +18,22 @@ To plot the CAP Curve, the model's population needs to be ordered by the predict
 
 The x-axis of the CAP curve represents the portion of the poulation sampled, and the y-axis represents the corresponding cummulative default rate.
 
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=500px height=500px src="CAP_curve.png" alt="CAP Curve"></a>
+</p>
+
 $$\frac{A}{A + B} = \frac{0.109}{0.419} = 0.26$$
 
 ## 2. Lorenz Curve
 The Lorenz curve is the inverse of the CAP curve; it is constructed using the same mechanism of sampling observations and aggregating the cumulative default rate, but the sampling is done in reverse order (from highest to lowest score).
 
 The Lorenz also has a diagonal line, which is equivalent to the ‘CAP random model’ line and is called “the Line of Equality” (the red line in the chart below).
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=500px height=500px src="Lorenze_Curve.png" alt="Lorenz Curve"></a>
+</p>
 
 $$ Gini = \frac{Corrado Gini}{1 - default rate} $$
 
