@@ -41,7 +41,7 @@ $$ Corrdo Gini = \frac{A}{A + B} = \frac{0.109}{0.5} = 0.22$$
 
 $$ default rate = 0.16 $$
 
-$$ Gini = \frac{0.22}{1-0.16} = 0.26$
+$$ Gini = \frac{0.22}{1-0.16} = 0.26 $$
 
 ## 3. ROC Curve (Recommended)
 
