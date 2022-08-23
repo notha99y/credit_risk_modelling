@@ -56,7 +56,7 @@ When two or more independent variables are closely related or measure almost the
 
 It becomes difficult or impossible to say which variable is really influencing the independent variable.
 
-
+## Recursive Feature Elimination (RFE)
 
 # Tree Based models
 Tree based models like Random Forest, and Boosting are non linear algorithms and their approach to feature selections are slightly different compared to their linear cousins.
