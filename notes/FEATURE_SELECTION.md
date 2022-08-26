@@ -33,10 +33,10 @@ Specifically, given a predictor with n groups, each with a certain Distribution 
 $$ \text{IV} = \sum_{i-1}^{n} [(\text{Distr Goods}_{i} - \text{Distr Bads}_{i} \times \ln(\frac{\text{Distr Goods}}{\text{Distr Badss}}))] $$
 
 Interpration of IV can be summarised as:
-- < 0.02, then the predictor is not useful for modelling (sperating the Goods from the Bads)
-- 0.02 - 0.1, then the predictor has a weak relationship to the Goods/Bads odds ratio
-- 0.1 to 0.3, then the predictor has a medium strength relation to the Goods/Bads odds ratio
-- > 0.3 then the predictor has a strong relationship to the Goods/Bads odds ratio
+- (< 0.02), then the predictor is not useful for modelling (sperating the Goods from the Bads)
+- (0.02 - 0.1), then the predictor has a weak relationship to the Goods/Bads odds ratio
+- (0.1 to 0.3), then the predictor has a medium strength relation to the Goods/Bads odds ratio
+- (> 0.3) then the predictor has a strong relationship to the Goods/Bads odds ratio
 ## Pairwise Correlation
 
 ## Variance Inflation Factor (VIF)
